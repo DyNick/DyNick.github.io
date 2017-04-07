@@ -1,0 +1,82 @@
+//breakpoints
+$mobile: 460px;
+$tablet: 768px;
+$laptop: 1224px;
+$desktop: 1024px;
+
+//media
+$mobile-media: 'only screen and (max-width: #{$mobile}';
+$tablet-media: 'only screen and (max-width: #{$tablet}';
+$laptop-media: 'only screen and (max-width: #{$laptop}';
+$desktop-media: 'only screen and (max-width: #{$desktop}';
+
+//width
+$container-width: 1160px;
+
+//colors
+$primary-fiolet: #444253;
+$primary-sharp-blue: #39C2D7;
+$primary-lime-green: #A3C644;
+$primary-graphite: #464547;
+$primary-white: #FFFFFF;
+$secondary-raspberry: #B22746;
+$secondary-plum: #8E244D;
+$secondary-dark-blue: #1A9CB0;
+$secondary-dark-green: #7F993A;
+$secondary-medium-gray: #666666;
+$secondary-gray: #999999;
+$secondary-light-gray: #CCCCCC;
+
+// mixins
+
+@mixin flex-mixin($justify, $align, $flow) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	flex-flow: $flow;
+}
+
+@mixin button-mixin($bg-color, $color, $paddings) {
+	padding: $paddings;
+	background-color: $bg-color;
+	border: 0;
+	outline: none;
+	font-weight: 600;
+	color: $color;
+	text-align: center;
+	text-transform: uppercase;
+}
+/*-------default value----------------*/
+body{
+	font-family: 'Lato', sans-serif;
+	opacity: 0.8;
+}
+.container{
+	width: 1030px;
+	margin: 0 auto;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	display: inline-block
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+a.selected {
+	background-color:#1F75CC;
+	color:white;
+	z-index:100;
+}
+

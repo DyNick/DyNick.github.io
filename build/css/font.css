@@ -1,0 +1,34 @@
+/*@font-face {
+    font-family: "Lato";
+    url("../fonts/Lato-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+!* font-family: "LatoBold"; *!
+@font-face {
+    font-family: "Lato";
+    url("../fonts/Lato-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+!* font-family: "LatoItalic"; *!
+@font-face {
+    font-family: "Lato";
+    url("../fonts/Lato-Italic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+!* font-family: "LatoLight"; *!
+@font-face {
+    font-family: "Lato";
+    url("../fonts/Lato-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+!* font-family: "LatoBoldItalic"; *!*/
+@font-face {
+    font-family: "Cooper Black";
+url("../fonts/COOPBL.TTF") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
